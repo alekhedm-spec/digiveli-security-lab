@@ -1,0 +1,31 @@
+# Local and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+secrets/
+credentials/
+
+# Dependencies, caches, and builds
+node_modules/
+vendor/
+.venv/
+__pycache__/
+.pytest_cache/
+coverage/
+dist/
+build/
+
+# Private or unreviewed research evidence
+private/
+evidence/private/
+reports/private/
+*.local
